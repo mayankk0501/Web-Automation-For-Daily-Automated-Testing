@@ -1,0 +1,60 @@
+2023-11-15 19:04:35,295 - INFO - Script started
+2023-11-15 19:04:57,628 - INFO - Test step 1 successful - Product search successful
+2023-11-15 19:05:02,348 - INFO - Test step 2 successful - Opened the first product
+2023-11-15 19:05:06,426 - INFO - Test step 3 successful - Added to cart
+2023-11-15 19:05:11,515 - INFO - Test step 4 successful - Redirected to delivery details
+2023-11-15 19:05:11,565 - ERROR - No need to login or Might be error in Login. : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ap_email"]"}
+  (Session info: chrome=119.0.6045.124); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6AF7F82B2+55298]
+	(No symbol) [0x00007FF6AF765E02]
+	(No symbol) [0x00007FF6AF6205AB]
+	(No symbol) [0x00007FF6AF66175C]
+	(No symbol) [0x00007FF6AF6618DC]
+	(No symbol) [0x00007FF6AF69CBC7]
+	(No symbol) [0x00007FF6AF6820EF]
+	(No symbol) [0x00007FF6AF69AAA4]
+	(No symbol) [0x00007FF6AF681E83]
+	(No symbol) [0x00007FF6AF65670A]
+	(No symbol) [0x00007FF6AF657964]
+	GetHandleVerifier [0x00007FF6AFB70AAB+3694587]
+	GetHandleVerifier [0x00007FF6AFBC728E+4048862]
+	GetHandleVerifier [0x00007FF6AFBBF173+4015811]
+	GetHandleVerifier [0x00007FF6AF8947D6+695590]
+	(No symbol) [0x00007FF6AF770CE8]
+	(No symbol) [0x00007FF6AF76CF34]
+	(No symbol) [0x00007FF6AF76D062]
+	(No symbol) [0x00007FF6AF75D3A3]
+	BaseThreadInitThunk [0x00007FF83BC1257D+29]
+	RtlUserThreadStart [0x00007FF83D4CAA58+40]
+
+2023-11-15 19:05:11,763 - ERROR - No need of login. Cookies working fine. : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ap_password"]"}
+  (Session info: chrome=119.0.6045.124); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6AF7F82B2+55298]
+	(No symbol) [0x00007FF6AF765E02]
+	(No symbol) [0x00007FF6AF6205AB]
+	(No symbol) [0x00007FF6AF66175C]
+	(No symbol) [0x00007FF6AF6618DC]
+	(No symbol) [0x00007FF6AF69CBC7]
+	(No symbol) [0x00007FF6AF6820EF]
+	(No symbol) [0x00007FF6AF69AAA4]
+	(No symbol) [0x00007FF6AF681E83]
+	(No symbol) [0x00007FF6AF65670A]
+	(No symbol) [0x00007FF6AF657964]
+	GetHandleVerifier [0x00007FF6AFB70AAB+3694587]
+	GetHandleVerifier [0x00007FF6AFBC728E+4048862]
+	GetHandleVerifier [0x00007FF6AFBBF173+4015811]
+	GetHandleVerifier [0x00007FF6AF8947D6+695590]
+	(No symbol) [0x00007FF6AF770CE8]
+	(No symbol) [0x00007FF6AF76CF34]
+	(No symbol) [0x00007FF6AF76D062]
+	(No symbol) [0x00007FF6AF75D3A3]
+	BaseThreadInitThunk [0x00007FF83BC1257D+29]
+	RtlUserThreadStart [0x00007FF83D4CAA58+40]
+
+2023-11-15 19:05:22,369 - INFO - Test step 6 successful - Address selected
+2023-11-15 19:05:32,583 - INFO - Test step 7 successful - Payment method selected
+2023-11-15 19:05:46,872 - INFO - Test step 8 successful - Order Placed
+2023-11-15 19:05:49,326 - INFO - Test step 9 successful - Order Placed Successfully
+2023-11-15 19:05:49,326 - INFO - Script finished
